@@ -1,0 +1,39 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+@font-face {
+  	font-family: "FontAwesome";
+  	font-weight: normal;
+  	font-style : normal;
+        src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+        src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+              url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
+
+.MessageForm {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    margin: 0 auto;
+    position: relative;
+}
+
+.MessageInput {
+  flex: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-color: rgb(206, 212, 218);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color: rgb(73, 80, 87);
+  height: 45px;
+  line-height: 24px;
+  padding: 6px 12px;
+  text-align: start;
+  width: 400px;
+}
